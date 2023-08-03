@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>Redirecting you to department page...</title>
+        <meta http-equiv="refresh" content="1.5; URL=https://chicago-roleplay-1.gitbook.io/departments/" />
+   </head>
+   <body>
+          <h1>Redirecting you to the departments page</h1>
+          
+          <img src="Rolling-1s-200px.gif" alt="loading">
+   </body>
+   <style>
+      @import url('//fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+           body {
+               background: #fff;
+               text-align: center;
+        justify-content: center;
+        padding: 5% 0;
+           }
+           h1 {
+               color: #002253;
+               font-size: 60px;
+               font-family: 'Futura', sans-serif;
+           }
+           p {
+               color: #474747;
+               font-size: 50px;
+               font-family: 'Proxima Nova', sans-serif;
+           }
+   </style>
