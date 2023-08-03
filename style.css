@@ -1,3 +1,4 @@
+
 .site-footer
 {
   background-color:#26272b;
@@ -168,19 +169,7 @@
   margin: 0 10px;
   cursor: pointer;
 }
-
-.discord-button:hover, .roblox-button:hover {
-  background-color: #546e7a;
-}
-.roblox-button:hover, .roblox-button:hover {
-  background-color: #f50f0f;
-}
-.button-container1 {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-.discord-button, .roblox-button {
+.support-button, .home-button {
   background-color: #7289da;
   color: #fff;
   padding: 10px 20px;
@@ -191,11 +180,13 @@
 }
 
 .discord-button:hover, .roblox-button:hover {
-  background-color: #7289da;
+  background-color: #546e7a;
 }
 .roblox-button:hover, .roblox-button:hover {
-  background-color: #7289da;
+  background-color: #f50f0f;
 }
+
+
 .black-footer {
   background-color: #0e0d0d;
   padding: 20px;
