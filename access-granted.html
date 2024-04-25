@@ -1,0 +1,29 @@
+<!-- access-granted.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Access Granted</title>
+  <script>
+    // Assuming you have a function called `checkRole` that performs the role verification
+    function checkRole(role) {
+      // Perform the role verification logic here
+      // Return true if the user has the role, false otherwise
+      // You can use the role ID or any other means to verify the role
+      // For demonstration purposes, let's assume the role ID is '123456789'
+      return role === '1173989699463958609';
+    }
+
+    // Check if the user has the desired role
+    if (checkRole(metadata.allergictonuts)) {
+      // Allow the user to access the content of the page
+      // Add your custom content here
+      document.write('<h1>Access Granted</h1>');
+    } else {
+      // Redirect the user to the no-access page
+      window.location.href = 'no-access.html';
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>
